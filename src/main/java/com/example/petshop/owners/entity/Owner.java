@@ -29,6 +29,5 @@ public class Owner {
 	private String phone;
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Pets> pets;
-	private Integer stole;
 
 }
